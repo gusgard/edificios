@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Edificio en venta en montevideo`,
-    description: `Descripcion del edifcio...`,
+    title: `Edificio en venta en Montevideo-Uruguay`,
+    description: `Edificio en venta en Montevide. A dos cuadras de Shopping Trues Cruces, 2200 metros construidos.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -31,4 +31,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  pathPrefix: "/edificios",
 }

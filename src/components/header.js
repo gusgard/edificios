@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
+        {/* <Link
           to="/"
           style={{
             color: `white`,
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
-        </Link>
+        </Link> */}
       </h1>
     </div>
   </header>
