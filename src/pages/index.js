@@ -5,12 +5,12 @@ import { Carousel } from "react-responsive-carousel"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-import photo1 from "../images/_1.jpg"
-import photo2 from "../images/_2.jpg"
-import photo3 from "../images/_3.jpg"
-import photo5 from "../images/_5.jpg"
-import photo6 from "../images/_6.jpg"
-import photo7 from "../images/_7.jpg"
+import photo1 from "../images/photo1.jpg"
+import photo2 from "../images/photo2.jpg"
+import photo3 from "../images/photo3.jpg"
+import photo5 from "../images/photo5.jpg"
+import photo6 from "../images/photo6.jpg"
+import photo7 from "../images/photo7.jpg"
 import alta1 from "../images/alta_1.jpg"
 import alta2 from "../images/alta_2.jpg"
 import alta3 from "../images/alta_3.jpg"
@@ -54,7 +54,7 @@ const altaDescription =
 const title = "Edificio en venta en Montevideo, Uruguay"
 
 const subtitle =
-  "A dos cuadras de Shopping Trues Cruces, 2200 metros construidos con 4 pisos, precio U$S 2.600.000"
+  "A dos cuadras de Shopping Tres Cruces, 2200 metros construidos con 4 pisos, precio U$S 2.600.000"
 
 const IndexPage = () => (
   <Layout>
@@ -63,7 +63,7 @@ const IndexPage = () => (
     <h1>{title}</h1>
     <h2>{subtitle}</h2>
     <h3>
-      Telefono: <a href="tel:+598094661256">(+598) 094-661-256</a>
+      Telefono: <a href="tel:+59894661256">(+598) 094-661-256</a>
     </h3>
 
     <CarouselContainer list={photos}>
