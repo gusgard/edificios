@@ -18,7 +18,13 @@ import escritorio1 from "../images/escritorio_1.jpg"
 
 const photos = [photo1, photo2, photo3, photo5, photo6, photo7, escritorio1]
 
-const keywords = ["edificio", "edificios", "uruguay", "montevideo"]
+const keywords = [
+  "edificio",
+  "edificios",
+  "uruguay",
+  "montevideo",
+  "tres cruces",
+]
 
 const CarouselContainer = ({ list, description, children }) => (
   <>
